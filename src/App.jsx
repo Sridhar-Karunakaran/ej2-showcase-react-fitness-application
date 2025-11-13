@@ -6,6 +6,7 @@ import Tab from "./tab";
 
 const App = () => (
   <React.Suspense fallback>
+    <h1 className="sr-only">Fitness Tracker</h1>
     <Tab></Tab>
   </React.Suspense>
 );
